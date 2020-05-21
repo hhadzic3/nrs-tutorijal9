@@ -15,7 +15,7 @@ services:
     node:
         depends_on:
             - reverseproxy
-        image: nrstut:1.0
+        image: nrs:1.0
         ports:
             - 8083:8083
         restart: always
